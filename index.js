@@ -12,6 +12,17 @@ let start = 0;
 homeScore.innerText = count;
 guestScore.innerText = start;
 
+function statusDisplay() {
+    if (homeScore.innerText > guestScore.innerText){
+        statusEl.innerText = 'HOME IS WINING';
+    } else if (guestScore.innerText > homeScore.innerText) {
+        statusEl.innerText = 'GUEST IS WINING';
+    } else if (homeScore.innerText == guestScore.innerText) {
+        statusEl.innerText = 'DRAW';
+    }
+}
+
+
 resetBtn.addEventListener('click', () => {
     count = 0;
     start = 0;
