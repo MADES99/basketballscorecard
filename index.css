@@ -1,0 +1,115 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+@font-face {
+    font-family: 'Verdana';
+    src: url('Verdana.ttf');
+}
+                
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 575px;
+    height: 385px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+    background: #1B244A;
+}
+.status {
+    width: 575px;
+    height: 50px;
+    margin: -20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #9AABD8;
+}
+
+button {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #9AABD8;
+    Width : 45px;
+    Height : 45px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+button:hover{
+    color: white;
+    background-color: #9AABD8;
+}
+
+
+button{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-style: normal;
+}
+
+
+#reset {
+    width: 70px;
+    font-size: 18px;
+    background-color: #9AABD8;
+    color: #1B244A;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#reset:hover {
+    color: #F94F6D;
+    background: #080001;
+}
+
+.home, .guest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home h1, .guest h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+.score{
+    width: 155px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21px;
+    margin-bottom: 26px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+.score h1{
+    color: #F94F6D;
+}
+
+
+#home-score,
+#guest-score{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-style: normal;
+    font-size: 90px;
+    line-height: 127px;
+    margin-top: 10px;
+}
+
